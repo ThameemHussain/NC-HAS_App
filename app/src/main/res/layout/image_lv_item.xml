@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:padding="2dp"
+    app:cardElevation="3dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff">
+
+        <!--Image view for displaying our image-->
+
+
+        <!--Text view for displaying our text -->
+
+        <Button
+            android:id="@+id/absentbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewidno"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/redripple"
+            android:backgroundTint="@null"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="Absent"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/idTVtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="18dp"
+            android:layout_toEndOf="@+id/textViewRN"
+            android:padding="3dp"
+            android:text="Category Text"
+            android:textAlignment="textEnd"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textViewRN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="20dp"
+            android:text="TextView"
+            android:textSize="16sp"
+            android:padding="3dp"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewidno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewRN"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="25dp"
+            android:text="TextView"
+            android:textColor="#E92A4CC8"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/presentbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/absentbtn"
+            android:layout_alignBottom="@+id/absentbtn"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/greenripple"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="Present"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/Remarkset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/absentbtn"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+
+            android:layout_marginEnd="3dp"
+            android:layout_toStartOf="@+id/Remarksbtn"
+            android:ems="10"
+            android:hint="Remarks or Comments here.."
+            android:inputType="textMultiLine" />
+
+        <ImageButton
+            android:id="@+id/Remarksbtn"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_below="@+id/absentbtn"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/ripplefile"
+
+
+            android:src="@android:drawable/ic_menu_send" />
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

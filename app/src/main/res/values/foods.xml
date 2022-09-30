@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerItems">
+        <item>Pongal</item>
+        <item>Vadai</item>
+        <item>Fish Fry</item>
+        <item>Egg</item>
+        <item>Parotta</item>
+        <item>Egg Masala</item>
+        <item>Idly</item>
+        <item>Cutlet</item>
+        <item>Uthappam</item>
+        <item>Chicken Chops</item>
+        <item>Poori</item>
+        <item>Appalam</item>
+        <item>Veg Rice</item>
+        <item>Dosai</item>
+        <item>Liver</item>
+        <item>Chappati</item>
+        <item>Chicken 65</item>
+        <item>Sada Dosa</item>
+        <item>Masal Dosa</item>
+        <item>Mini Poori</item>
+        <item>Special Chicken</item>
+        <item>Bread Toast</item>
+    </string-array>
+</resources>

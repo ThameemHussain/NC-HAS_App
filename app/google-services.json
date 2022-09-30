@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1056930639529",
+    "firebase_url": "https://tnchostel-ddd9f-default-rtdb.firebaseio.com",
+    "project_id": "tnchostel-ddd9f",
+    "storage_bucket": "tnchostel-ddd9f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056930639529:android:82c5a08f8ee33d302503b8",
+        "android_client_info": {
+          "package_name": "com.nchas.thameem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056930639529-kl2mqnpnsql6lu7udul27dumpivtsq72.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyzoRku08Er8UbsjHK9dVut9Kz8jAE4mc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056930639529-kl2mqnpnsql6lu7udul27dumpivtsq72.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

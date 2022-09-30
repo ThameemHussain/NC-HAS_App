@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">NC-HAS</string>
+    <string name="title_activity_student_list">StudentList</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_main">MainActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lukman">Rukman(101–210)</string>
+    <string name="naser_khan">Naser Khan(67–99)</string>
+    <string name="faisal">Faisal</string>
+    <string name="suhail">Suhail(33–65)</string>
+    <string name="bilal">Bilal(1–27)</string>
+    <string name="jakith">Jakith(301–352)</string>
+    <string name="parent_mobile_number">Parent Mobile Number</string>
+    <string name="add">add</string>
+    <string name="room_no">Room No.</string>
+    <string name="department">Department</string>
+    <string name="d_o_b">D.O.B.</string>
+    <string name="name">Name</string>
+    <string name="enter_id">Enter ID</string>
+    <string name="student_mobile_number">Student Mobile Number</string>
+
+
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Thameem/AndroidStudioProjects/Hostel2App/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2165" />
+        <entry key="..\:/Users/Thameem/AndroidStudioProjects/Hostel2App/app/src/main/res/drawable/buttonshape.xml" value="0.2155" />
+        <entry key="..\:/Users/Thameem/AndroidStudioProjects/Hostel2App/app/src/main/res/drawable/fieldstroke.xml" value="0.2155" />
+        <entry key="..\:/Users/Thameem/AndroidStudioProjects/Hostel2App/app/src/main/res/drawable/greengradd.xml" value="0.2165" />
+        <entry key="..\:/Users/Thameem/AndroidStudioProjects/Hostel2App/app/src/main/res/drawable/greenripple.xml" value="0.2155" />
+        <entry key="..\:/Users/Thameem/AndroidStudioProjects/Hostel2App/app/src/main/res/drawable/ic_baseline_arrow_back_ios_new_24.xml" value="0.2165" />
+        <entry key="..\:/Users/Thameem/AndroidStudioProjects/Hostel2App/app/src/main/res/drawable/ic_baseline_navigate_next_24.xml" value="0.2165" />
+        <entry key="..\:/Users/Thameem/AndroidStudioProjects/Hostel2App/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2165" />
+        <entry key="..\:/Users/Thameem/AndroidStudioProjects/Hostel2App/app/src/main/res/drawable/listbg.xml" value="0.2155" />
+        <entry key="..\:/Users/Thameem/AndroidStudioProjects/Hostel2App/app/src/main/res/drawable/redgradd.xml" value="0.2155" />
+        <entry key="..\:/Users/Thameem/AndroidStudioProjects/Hostel2App/app/src/main/res/drawable/redripple.xml" value="0.2155" />
+        <entry key="..\:/Users/Thameem/AndroidStudioProjects/Hostel2App/app/src/main/res/drawable/ripplefile.xml" value="0.2155" />
+        <entry key="..\:/Users/Thameem/AndroidStudioProjects/Hostel2App/app/src/main/res/drawable/spinneerstroke.xml" value="0.2" />
+        <entry key="..\:/Users/Thameem/AndroidStudioProjects/Hostel2App/app/src/main/res/layout/activity_add_student.xml" value="0.2" />
+        <entry key="..\:/Users/Thameem/AndroidStudioProjects/Hostel2App/app/src/main/res/layout/activity_admin_login.xml" value="0.25" />
+        <entry key="..\:/Users/Thameem/AndroidStudioProjects/Hostel2App/app/src/main/res/layout/activity_admin_login2.xml" value="0.14990942028985507" />
+        <entry key="..\:/Users/Thameem/AndroidStudioProjects/Hostel2App/app/src/main/res/layout/activity_adminselector.xml" value="0.1802536231884058" />
+        <entry key="..\:/Users/Thameem/AndroidStudioProjects/Hostel2App/app/src/main/res/layout/activity_calciadmin.xml" value="0.209375" />
+        <entry key="..\:/Users/Thameem/AndroidStudioProjects/Hostel2App/app/src/main/res/layout/activity_launcher_selector.xml" value="0.2" />
+        <entry key="..\:/Users/Thameem/AndroidStudioProjects/Hostel2App/app/src/main/res/layout/activity_parent_first.xml" value="0.19021739130434784" />
+        <entry key="..\:/Users/Thameem/AndroidStudioProjects/Hostel2App/app/src/main/res/layout/activity_parent_second.xml" value="0.18478260869565216" />
+        <entry key="..\:/Users/Thameem/AndroidStudioProjects/Hostel2App/app/src/main/res/layout/activity_presence_selector.xml" value="0.1" />
+        <entry key="..\:/Users/Thameem/AndroidStudioProjects/Hostel2App/app/src/main/res/layout/activity_realcalciadmin.xml" value="0.19157608695652173" />
+        <entry key="..\:/Users/Thameem/AndroidStudioProjects/Hostel2App/app/src/main/res/layout/activity_student_list.xml" value="0.22" />
+        <entry key="..\:/Users/Thameem/AndroidStudioProjects/Hostel2App/app/src/main/res/layout/activity_student_list2.xml" value="0.1802536231884058" />
+        <entry key="..\:/Users/Thameem/AndroidStudioProjects/Hostel2App/app/src/main/res/layout/content_student_list.xml" value="0.14990942028985507" />
+        <entry key="..\:/Users/Thameem/AndroidStudioProjects/Hostel2App/app/src/main/res/layout/fragment_calender.xml" value="0.22" />
+        <entry key="..\:/Users/Thameem/AndroidStudioProjects/Hostel2App/app/src/main/res/layout/fragment_first.xml" value="0.25" />
+        <entry key="..\:/Users/Thameem/AndroidStudioProjects/Hostel2App/app/src/main/res/layout/fragment_second.xml" value="0.15579710144927536" />
+        <entry key="..\:/Users/Thameem/AndroidStudioProjects/Hostel2App/app/src/main/res/layout/image_lv_item.xml" value="0.25" />
+        <entry key="..\:/Users/Thameem/AndroidStudioProjects/Hostel2App/app/src/main/res/layout/image_lv_item2.xml" value="0.22" />
+        <entry key="..\:/Users/Thameem/AndroidStudioProjects/Hostel2App/app/src/main/res/mipmap-anydpi-v26/hostelicon.xml" value="0.2165" />
+        <entry key="..\:/Users/Thameem/AndroidStudioProjects/Hostel2App/app/src/main/res/mipmap-anydpi-v26/iconncbismillah_round.xml" value="0.2165" />
+        <entry key="..\:/Users/Thameem/AndroidStudioProjects/Hostel2App/app/src/main/res/mipmap-anydpi-v26/nchasicon_round.xml" value="0.2165" />
+        <entry key="..\:/Users/Thameem/AppData/Local/Android/Sdk/platforms/android-31/data/res/drawable/text_cursor_material.xml" value="0.2165" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16_PREVIEW" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.15" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

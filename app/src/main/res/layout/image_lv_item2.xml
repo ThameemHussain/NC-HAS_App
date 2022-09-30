@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:padding="2dp"
+    app:cardElevation="3dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff">
+
+        <!--Image view for displaying our image-->
+
+
+        <!--Text view for displaying our text -->
+
+        <TextView
+            android:id="@+id/idTVtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="18dp"
+            android:layout_toEndOf="@+id/textViewRN"
+            android:padding="3dp"
+            android:text="Category Text"
+            android:textAlignment="textEnd"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textViewRN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="20dp"
+            android:padding="3dp"
+            android:text="TextView"
+            android:textSize="16sp"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewidno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewRN"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="25dp"
+            android:text="TextView"
+            android:textColor="#E92A4CC8"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/Remarksbtn"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_below="@+id/idTVtext"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/ripplefile"
+
+
+            android:src="@android:drawable/ic_menu_send" />
+
+        <Spinner
+            android:id="@+id/spinnerfod2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/idTVtext"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/spinneerstroke"
+            android:entries="@array/spinnerItems2"
+            android:textAlignment="center" />
+
+        <Spinner
+            android:id="@+id/spinnerfod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/idTVtext"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="18dp"
+
+            android:layout_toStartOf="@+id/Remarksbtn"
+            android:layout_toEndOf="@+id/spinnerfod2"
+            android:background="@drawable/spinneerstroke"
+            android:entries="@array/spinnerItems"
+            android:textAlignment="center" />
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
