@@ -43,6 +43,7 @@ private TextView Wel;
         Wel.startAnimation(animation2);
         Messadmin.startAnimation(animation2);
 
+
         Messadmin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

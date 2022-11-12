@@ -26,6 +26,11 @@
     <string name="name">Name</string>
     <string name="enter_id">Enter ID</string>
     <string name="student_mobile_number">Student Mobile Number</string>
+    <string name="title_activity_realcalci_admin">RealcalciAdmin</string>
+    <string name="to">TO :</string>
+    <string name="calculate">Calculate</string>
+    <string name="from">FROM :</string>
+    <string name="douWant">Do you want to send this as a Message to his parents?</string>
 
 
 </resources>

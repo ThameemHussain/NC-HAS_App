@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.nchas.thameem" >
+    package="com.nchas.thameem">
 
     <uses-permission android:name="android.permission.WRITE_SMS" />
     <uses-permission android:name="android.permission.SEND_SMS" />
@@ -12,7 +12,23 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/hosteliconfinal_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Hostel2App" >
+        android:theme="@style/Theme.Hostel2App">
+        <activity
+            android:name=".realcalciadmin1"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".RealcalciAdmin"
+            android:exported="false"
+            android:label="@string/title_activity_realcalci_admin"
+            android:theme="@style/Theme.Hostel2App">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name=".adminselector"
             android:exported="false" />
@@ -42,7 +58,7 @@
             android:exported="false" />
         <activity
             android:name=".LauncherSelector"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

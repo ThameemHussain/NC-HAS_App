@@ -129,7 +129,7 @@ String iiiddd= studentDetails.getUniqueID();
 
                         Toast.makeText(getContext(), "Data Updated as Present", Toast.LENGTH_SHORT).show();
                         SMSAnupu(Phonenumber,message1,name,iiiddd,date);
-                        addItemToSheet(name,"Present");
+
 
 
 
@@ -175,7 +175,7 @@ String iiiddd= studentDetails.getUniqueID();
                     public void onSuccess(Void aVoid) {
                         Toast.makeText(getContext(), "Data Updated as Absent ", Toast.LENGTH_SHORT).show();
                         SMSAnupu(Phonenumber,message2,name,iiiddd,date);
-                        addItemToSheet(name,"Absent");
+
 
 
                     }
@@ -255,6 +255,11 @@ String iiiddd= studentDetails.getUniqueID();
             public void onClick(View v) {
                 // on the item click on our list view.
                 // we are displaying a toast message.
+                Intent intent=new Intent(getContext(),realcalciadmin1.class);
+                intent.putExtra("stuid",iiiddd);
+                intent.putExtra("name",name);
+                intent.putExtra("number",Phonenumber);
+                v.getContext().startActivity(intent);
 
             }
         });
@@ -274,50 +279,7 @@ String iiiddd= studentDetails.getUniqueID();
         Log.d("SMS ready to send", "----THIRD CALL----");
 
     }
-    private void   addItemToSheet(String nam,String atten) {
 
-        final ProgressDialog loading = ProgressDialog.show(getContext(),"Adding Item","Please wait");
-
-
-
-
-
-        StringRequest stringRequest = new StringRequest(Request.Method.POST, "https://script.google.com/macros/s/AKfycbwyyroVa8BXbkMIzAQ7bhKOGH-pCiSS5aCb7XtwV4oLssS7Jb54HfXgjaHsKyCzaY1Ejw/exec",
-                response -> {
-
-                    loading.dismiss();
-                    Toast.makeText(getContext(),response,Toast.LENGTH_LONG).show();
-
-
-                },
-                error -> {
-
-                }
-        ) {
-            @Override
-            protected Map<String, String> getParams() {
-                Map<String, String> parmas = new HashMap<>();
-
-                //here we pass params
-                parmas.put("action","addItem");
-                parmas.put("Name",nam);
-                parmas.put("Attendance",atten);
-
-                return parmas;
-            }
-        };
-
-        int socketTimeOut = 50000;// u can change this .. here it is 50 seconds
-
-        RetryPolicy retryPolicy = new DefaultRetryPolicy(socketTimeOut, 0, DefaultRetryPolicy.DEFAULT_BACKOFF_MULT);
-        stringRequest.setRetryPolicy(retryPolicy);
-
-        RequestQueue queue = Volley.newRequestQueue(getContext());
-
-        queue.add(stringRequest);
-
-
-    }
 
 
 }
