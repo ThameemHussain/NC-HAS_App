@@ -30,7 +30,7 @@ private TextView Wel;
         Messadmin=(Button)findViewById(R.id.Messbtn);
         Logo=(ImageView)findViewById(R.id.imageView);
         Wel=(TextView)findViewById(R.id.textView6);
-
+       Button Check=(Button)findViewById(R.id.button3);
         Animation animation1 = AnimationUtils.loadAnimation(getApplicationContext(),
                 R.anim.clockwise);
         Animation animation2 = AnimationUtils.loadAnimation(getApplicationContext(),
@@ -43,7 +43,13 @@ private TextView Wel;
         Wel.startAnimation(animation2);
         Messadmin.startAnimation(animation2);
 
-
+Check.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View view) {
+        Intent intent = new Intent(LauncherSelector.this,Rooms.class);
+        startActivity(intent);
+    }
+});
         Messadmin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -41,6 +41,9 @@ public class realcalciadmin1 extends AppCompatActivity {
     private TextView Answer, msgHint;
     private String TAG="HEREEEE";
     public int Counter=0;
+    public float nump1;
+    public float nump2;
+    public float nump3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -85,8 +88,9 @@ public class realcalciadmin1 extends AppCompatActivity {
                 LocalDate start = LocalDate.parse(from, DateTimeFormatter.ofPattern("d-M-yyyy"));
                 LocalDate end = LocalDate.parse(to, DateTimeFormatter.ofPattern("d-M-yyyy"));
                 long numofDays = ChronoUnit.DAYS.between(start, end);
-                float nump1=Long.valueOf(numofDays).floatValue()+1;
-                Log.d("numofdays","Total no. of days "+nump1);
+                nump1=Long.valueOf(numofDays).floatValue()+1;
+                Log.d("numofdays","Total no. of days No change "+nump1);
+                nump2=nump1;
                 List<LocalDate> FromTo = Stream.iterate(start, date -> date.plusDays(1)).limit(numofDays + 1).collect(Collectors.toList());
                 List<String> temp = new ArrayList(FromTo.size());
                 for (LocalDate date : FromTo) {
@@ -105,7 +109,6 @@ public class realcalciadmin1 extends AppCompatActivity {
                                 if (task.isSuccessful()) {
                                     DocumentSnapshot snapshot = task.getResult();
                                     if (snapshot.getData().get(ab) != null) {
-
                                         Map<String, Object> dateinfo = (Map<String, Object>) snapshot.getData().get(ab);
                                         String attte = (String) dateinfo.get("Attendance");
 
@@ -115,9 +118,10 @@ public class realcalciadmin1 extends AppCompatActivity {
 
                                         }
 
-
-
-
+                                    }else{
+                                        nump2 =nump2- 1;
+                                        nump3=nump2;
+                                        Log.d("numofdays","Total no. of days With change 000 "+nump2);
 
                                     }
 
@@ -129,14 +133,18 @@ public class realcalciadmin1 extends AppCompatActivity {
                         });
 
                     }
+
                 Log.d("Counter","No. of days Present "+Counter);
+                Log.d("numofdays","Total no. of days With change "+nump3);
                     try {
-                        float percentage =Counter*100/nump1;
-                        if(percentage==0){
+                        float percentage =Counter*100/nump3;
+                        if(Counter==0){
+                            dapi.setText("Calculate");
                             Answer.setText("Click Again!!");
                       }
                         else{
                             Answer.setText(Name+"'s Attendance Percentage is "+percentage);
+                            dapi.setVisibility(View.INVISIBLE);
                             msgHint.setVisibility(View.VISIBLE);
                             perMsg.setVisibility(View.VISIBLE);
                             PerSender(perMsg,Number1,"Your son's Attendance from "+from+" to "+to+" is "+ percentage+"%",Name,StuID);

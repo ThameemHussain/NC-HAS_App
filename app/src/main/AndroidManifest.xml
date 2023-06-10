@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.nchas.thameem">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.WRITE_SMS" />
     <uses-permission android:name="android.permission.SEND_SMS" />
@@ -14,17 +13,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hostel2App">
         <activity
+            android:name=".Rooms"
+            android:exported="false" />
+        <activity
             android:name=".realcalciadmin1"
             android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".RealcalciAdmin"
-            android:exported="false"
-            android:label="@string/title_activity_realcalci_admin"
-            android:theme="@style/Theme.Hostel2App">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
